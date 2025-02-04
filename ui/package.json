@@ -1,0 +1,29 @@
+{
+    "name": "niti-mlb-hackathon-ui",
+    "description": "Niti MLB Hackathon entry, frontend code",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "react-router-dom": "6.9.0",
+        "styled-components": "^6.1.14",
+        "react-markdown": "^9.0.3"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "2.13.3",
+        "@types/react": "18.3.12",
+        "@types/react-dom": "18.3.5",
+        "parcel": "^2.13.3",
+        "process": "^0.11.10",
+        "typescript": "^5.7.3"
+    },
+    "scripts": {
+        "tsc": "tsc --noEmit",
+        "watch": "parcel src/index.html --no-cache",
+        "build": "parcel build src/index.html"
+    },
+    "@parcel/resolver-default": {
+        "packageExports": true
+    }
+}

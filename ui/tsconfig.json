@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true, // Allow 'import x from y' when a module doesn't have a default export.
+        "allowUnreachableCode": false, // Disable error reporting for unreachable code
+        "checkJs": false, // Enable error reporting in type-checked JavaScript files
+        "declaration": true, // Generate .d.ts files from TypeScript and JavaScript files in your project
+        "declarationDir": "./dist", // Specify the output directory for generated declaration files
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true, // Ensure that casing is correct in imports
+        "incremental": false, // Enable incremental compilation
+        "jsx": "react", // Specify what JSX code is generated
+        // "jsxFactory": "React.createElement",        // Specify the JSX factory function used when targeting React JSX emit, e.g. 'React.createElement' or 'h'
+        "module": "ESNext", // Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'.
+        "moduleResolution": "node", // Specify how TypeScript looks up a file from a given module specifier
+//        "noEmit": true, // Disable emitting files from a compilation
+        "noFallthroughCasesInSwitch": true, // Enable error reporting for fallthrough cases in switch statements
+        "noImplicitReturns": true, // Enable error reporting for codepaths that do not explicitly return in a function.
+        "noImplicitThis": true, // Enable error reporting when `this` is given the type `any`
+        "removeComments": true, // Do not emit comments to output.
+        "resolveJsonModule": true, // Enable importing .json files
+        "rootDir": "./", // specify the root folder within your source files.
+        "skipLibCheck": false, // Skip type checking all .d.ts files
+        "strict": false, // Enable all strict type-checking options
+        "target": "ESNext", // Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+        "outDir": "./dist",
+    },
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "niti-mlb-hackathon-server",
+    "description": "Niti MLB Hackathon entry, server code",
+    "version": "1.0.0",
+    "type": "module",
+    "src": "server.js",
+    "dependencies": {
+        "express": "^4.21.2",
+        "express-async-handler": "^1.2.0",
+        "cors": "^2.8.5",
+        "fs-extra": "^11.3.0",
+        "html-to-text": "^9.0.5",
+        "@google/generative-ai": "^0.21.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "watch": "nodemon server.js"
+    }
+}
