@@ -55,4 +55,4 @@ games happen in time.
 
 # License
 
-(c) Copyright 2025. Apache License 2.0. 
+(c) Copyright 2025. MIT License.
