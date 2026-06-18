@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // the google key
-const genAI = new GoogleGenerativeAI('');
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
 export async function executeLlmPrompt(prompt) {
     const model = genAI.getGenerativeModel({
